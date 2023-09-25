@@ -1,0 +1,23 @@
+﻿#box {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+#box p {
+    text-align: center;
+    padding-top: 60px;
+}
+
+#find {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background-color: red;
+}
+
+    #text {
+        text-align: center;
+        padding-top: 60px;
+        color: black;
+    }

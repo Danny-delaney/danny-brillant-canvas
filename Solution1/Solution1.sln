@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{F3AE986A-DEBE-4849-87AD-BF04F40184DB}"
+	ProjectSection(SolutionItems) = preProject
+		html.html = html.html
+		screen.css = screen.css
+		script.js = script.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F3D9BA0-0927-49C3-9AC2-438C4BFBF2F9}
+	EndGlobalSection
+EndGlobal
