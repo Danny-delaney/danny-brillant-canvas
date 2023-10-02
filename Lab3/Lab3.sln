@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{59667B46-EA6D-49D1-A3AC-0DC688FD4190}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{BEF310D2-9190-4A58-AD12-E71C9C3E059C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{AEC60E6B-94BA-4BA4-A0F4-7A6539DF4F7D}"
+	ProjectSection(SolutionItems) = preProject
+		script.js = script.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{8FCC0E4B-759E-4B67-BDD7-36FC37759A33}"
+	ProjectSection(SolutionItems) = preProject
+		screen.css = screen.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BEF310D2-9190-4A58-AD12-E71C9C3E059C} = {59667B46-EA6D-49D1-A3AC-0DC688FD4190}
+		{AEC60E6B-94BA-4BA4-A0F4-7A6539DF4F7D} = {BEF310D2-9190-4A58-AD12-E71C9C3E059C}
+		{8FCC0E4B-759E-4B67-BDD7-36FC37759A33} = {BEF310D2-9190-4A58-AD12-E71C9C3E059C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF0365B0-9B1E-4150-8BBD-EB45372AE764}
+	EndGlobalSection
+EndGlobal
