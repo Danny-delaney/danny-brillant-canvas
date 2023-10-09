@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Colm ONeill">
+  <title>UI Programming 23 24</title>
+  <link href="screen.css" rel="stylesheet" text="text/css">
+</head>
+<body>
+    <div id="canvas-container">
+        <h2>Task 2: Canvas Movement</h2>
+        <canvas id="canvas" width="400" height="400"></canvas>
+    </div>
+    <table>
+        <tbody>
+            <tr>
+                <td>&nbsp;</td>
+                <td><button onmousedown="clickDpadYellow()" onmouseup="clickableDpadReleased()" class="button yellow round">Y</button></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><button onmousedown="clickDpadBlue()" onmouseup="clickableDpadReleased()" class="button blue round">X</button></td>
+                <td>&nbsp;</td>
+                <td><button onmousedown="clickDpadRed()" onmouseup="clickableDpadReleased()" class="button red round">B</button></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td><button onmousedown="clickDpadGreen()" onmouseup="clickableDpadReleased()" class="button green round">A</button></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+        </tbody>
+    </table>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
