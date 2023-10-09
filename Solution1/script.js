@@ -1,6 +1,6 @@
 // JavaScript source code
 // below I declare an array of different colours
-let size = ["200px", "300px", "10px", "1000000px", "19px"]
+let size = ["100px", "120px", "140px", "160px", "180px"]
 let colours = ["green", "blue", "red", "orange", "pink"]
 
 // defines box as box and adds an event for clicking said box
@@ -38,4 +38,5 @@ function hell() {
     find.style.backgroundColor = newColour;
     find.style.Colour = newColour;
     text.style.color = newColour
+    text.innerText = "AGHHHHHHH"
 }

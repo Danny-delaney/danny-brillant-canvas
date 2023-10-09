@@ -10,6 +10,8 @@
 }
 
 #find {
+    position: fixed;
+    top: 400px;
     width: 200px;
     height: 200px;
     border-radius: 200px;
